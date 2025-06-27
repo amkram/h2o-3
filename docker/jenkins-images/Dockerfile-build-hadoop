@@ -1,7 +1,0 @@
-ARG FROM_VERSION
-FROM 353750902984.dkr.ecr.us-east-1.amazonaws.com/h2o-3/dev-build-base:${FROM_VERSION}
-
-USER jenkins
-ARG H2O_BRANCH=master
-RUN BUILD_HADOOP=true /tmp/build-h2o-3
-USER root

@@ -1,3 +1,0 @@
-dependencies {
-    api project(":h2o-ext-jython-cfunc")
-}

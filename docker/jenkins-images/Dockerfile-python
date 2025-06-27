@@ -1,9 +1,0 @@
-ARG FROM_VERSION
-FROM 353750902984.dkr.ecr.us-east-1.amazonaws.com/h2o-3/dev-python-base:${FROM_VERSION}
-
-ARG H2O_BRANCH=master
-ARG PYTHON_VERSION
-ENV PYTHON_VERSION=${PYTHON_VERSION}
-
-RUN \
-    /tmp/install_python_version ${PYTHON_VERSION}

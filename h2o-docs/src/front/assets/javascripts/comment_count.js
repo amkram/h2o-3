@@ -1,1 +1,0 @@
-view-source:https://www.h2o.ai/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.16
